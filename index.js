@@ -51,18 +51,18 @@ function addToList() {
     let newHeader = document.getElementById('usersName');
     heading1.innerHTML = newHeader.innerHTML;
     subjectList.appendChild(heading1);
-
+//adds img to new user
     let subjectImg1 = document.createElement('img');
     let imgElement = document.getElementById('usersImg');
     let newImg = imgElement.cloneNode(true);
     subjectImg1 = newImg;
     subjectList.appendChild(subjectImg1);
-
+//adds cell to new user
     let subjCell1 = document.createElement('p');
     let newCell = document.getElementById('usersCell');
     subjCell1.innerHTML = newCell.innerHTML;
     subjectList.appendChild(subjCell1);
-
+//adds age (no display) to new user
     let subjAge1 = document.createElement('p');
     let newAge = document.getElementById('usersAge');
     subjAge1.innerHTML = newAge.innerHTML;
@@ -70,11 +70,12 @@ function addToList() {
     agesArray.push(subjAge1.textContent);
 }
 
-
+//filter btn functionality
 document.getElementById('filter').addEventListener('click', filterAge);
 function filterAge() {
   agesArray.forEach(saveYounglings);
 }
+//alerts whether subject is within age range or not (above 30)
 function saveYounglings(item, agesArray) {
   if (item < 30) {
     alert(`Age: ${item} years old, outside of the standard age parameters for these studies.`);
@@ -101,7 +102,7 @@ document.getElementById('nextProfile').addEventListener('mouseout', (e) => {
   e.target.style.color = 'white';
 })
 
-//on dom load, add submit functionality to form || run f on input value
+//on dom load, add submit functionality to form + run f on input value
 document.addEventListener("DOMContentLoaded", () => {
     let form = document.querySelector('form')
     form.addEventListener('submit', (e) => {
@@ -111,7 +112,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
   
-  //create notes list from input, if no input alert user || adds delete btn
+  //create notes list from input, if no input alert user + adds delete btn
   function newNote(userNote) {
     let li = document.createElement('li');
     let btn = document.createElement('button');
