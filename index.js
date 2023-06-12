@@ -90,7 +90,7 @@ document.getElementById('addSubject').addEventListener('mouseover', (e) => {
 })
 
 document.getElementById('addSubject').addEventListener('mouseout', (e) => {
-  e.target.style.color = 'black';
+  e.target.style.color = 'white';
 })
 
 document.getElementById('nextProfile').addEventListener('mouseover', (e) => {
@@ -98,7 +98,7 @@ document.getElementById('nextProfile').addEventListener('mouseover', (e) => {
 })
 
 document.getElementById('nextProfile').addEventListener('mouseout', (e) => {
-  e.target.style.color = 'black';
+  e.target.style.color = 'white';
 })
 
 //on dom load, add submit functionality to form || run f on input value
