@@ -23,7 +23,6 @@ CSS
 - Explore database of potential candidates for scientific studies
 - Identify potential matches for scientific studies
 - Create candidate pool based on necessary criteria
-- Reach out to candidates with an offer to participate
 
 ---
 
