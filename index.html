@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <title>Subject Portal</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <div class="topnav">
+            <a class="banner" id="banner">
+                <p id="banner-text">
+                    <marquee behavior="scroll" direction="left">Find your perfect candidates here!</marquee>
+                </p>
+            </a>
+        </div>
+
+        <h1>Candidate Search Portal for Scientific Studies</h1>
+
+        <button class="addSubject" id="addSubject">Add to Study</button>
+
+        <div id="randomSubject"></div>
+
+        <button id="nextProfile">Click for Next Profile</button>
+
+        <div class="row">
+            <div class="column">
+                <form id="notesList" action="" method="POST">
+                    <label for="newNote">Note:</label>
+                    <input type="text" id="newNote" name="newNote" placeholder="Add Note Here" />
+                    <input type="submit" value="Add Note">
+                </form>
+        
+                <div id="notes">
+                    <h2>My Notes:</h2>
+                    <ul id="myNotes"></ul>
+                </div>
+            </div>
+            <div class="column">
+                <div id="subjects">
+                    <h2>Potential Subjects </h2><button id="filter">Age Verification</button>
+                    <p>Press the above button to verify the ages of each of the candidates on your list.</p>
+                    <div id="subjectList"></div>
+                    <div hidden id="userAges"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>

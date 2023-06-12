@@ -1,0 +1,67 @@
+html {
+    background-color: white;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.addSubject {
+    background-color: rgb(142, 127, 255);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    width: 25%;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+}
+
+#nextProfile  {
+    background-color: rgb(142, 127, 255);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    width: 25%;
+    margin: auto;
+    margin-bottom: 15px;
+    display: block;
+    cursor: pointer;
+}
+
+#xBtn {
+    padding: 2px 2px;
+}
+
+.topnav {
+    color: white;
+    background-color: rgb(142, 127, 255);
+    margin: auto;
+    text-align: center;
+}
+
+#randomSubject {
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
