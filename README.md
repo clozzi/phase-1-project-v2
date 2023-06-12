@@ -27,12 +27,6 @@ CSS
 
 ---
 
-### Preview
-
-GIF TEST CHANGE
-
----
-
 ### Usage
 
 The primary purpose of this project is to create connections between scientists and volunteers so that studies can be facilitated and the human condition can be improved.
