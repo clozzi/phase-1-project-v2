@@ -36,22 +36,6 @@ The functionality of this project can be modified to select populations for alte
 
 ---
 
-### Contributing
-
-Please feel free to fork this project like a big bowl of spaghetti!
-
----
-
-### Contact
-
-Email: clozzi12@gmail.com
-
-Git: https://github.com/clozzi
-
-LinkedIn: https://www.linkedin.com/in/christopher-lozzi-823777260/
-
----
-
 ### Acknowledgements
 
 Here are a few resources that I found useful while completing this project, check them out!
